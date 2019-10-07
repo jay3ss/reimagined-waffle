@@ -6,13 +6,97 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/contactHeadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/contactHeadlineTxt"
+            android:textSize="36sp"/>
+
+        <ImageView
+            android:id="@+id/profilePictureScaled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heisenbergscaled"
+            android:layout_below="@id/contactHeadline"/>
+
+        <Button
+            android:id="@+id/viewContactBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewContactBtnTxt"
+            android:layout_below="@id/profilePictureScaled"
+            android:layout_alignRight="@id/profilePictureScaled"
+            android:layout_alignLeft="@id/profilePictureScaled"/>
+
+        <TextView
+            android:id="@+id/nameLabelTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nameLabelText"
+            android:layout_toRightOf="@id/profilePictureScaled"
+            android:layout_below="@id/contactHeadline"
+            android:layout_marginLeft="8dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/contactNameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contactNameTxt"
+            android:layout_toRightOf="@id/nameLabelTxt"
+            android:layout_below="@id/contactHeadline"
+            android:layout_marginLeft="8dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/phoneLabelTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phoneLabelTxt"
+            android:layout_toRightOf="@id/profilePictureScaled"
+            android:layout_below="@id/nameLabelTxt"
+            android:layout_marginLeft="8dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/phoneNumberTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phoneNumberTxt"
+            android:layout_toRightOf="@id/nameLabelTxt"
+            android:layout_below="@id/contactNameTxt"
+            android:layout_marginLeft="8dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/relationshipLabelTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relationshipLabelTxt"
+            android:layout_toRightOf="@id/profilePictureScaled"
+            android:layout_below="@id/phoneLabelTxt"
+            android:layout_marginLeft="8dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/relationshipTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relationshipTxt"
+            android:layout_toRightOf="@id/relationshipLabelTxt"
+            android:layout_below="@id/phoneNumberTxt"
+            android:layout_marginLeft="8dp"
+            android:textSize="16dp"/>
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
