@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Business Card App</string>
+    <string name="viewContactBtnTxt">View Contact</string>
+    <string name="contactNameTxt">Joshua Saunders</string>
+    <string name="addressTxt">742 Evergreen Terrace\nSpringfiled, OR  97403</string>
+    <string name="phoneNumberTxt">(541) 555-7926</string>
+    <string name="contactHeadlineTxt">Contacts</string>
+    <string name="businessNameTxt">Matrixorama LLC</string>
+    <string name="emailTxt">josh@matrixorama.io</string>
+    <string name="relationshipTxt">Self</string>
+    <string name="nameLabelText">Name:</string>
+    <string name="phoneLabelTxt">Phone:</string>
+    <string name="relationshipLabelTxt">Relationship:</string>
 </resources>
