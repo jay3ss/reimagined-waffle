@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Chicago Cab Fare</string>
+    <string-array name="cab_types">
+        <item>Smart Car</item>
+        <item>Traditional Sedan</item>
+        <item>Minivan</item>
+    </string-array>
+    <string name="btnFare">FIND THE FARE</string>
+    <string name="prompt">Select cab type</string>
+    <string name="txtMiles">Number of Miles</string>
+    <string name="txtTitle">Find-a-Cab</string>
+    <string name="description">London black cab image</string>
 </resources>
