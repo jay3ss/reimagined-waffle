@@ -14,7 +14,8 @@ import org.w3c.dom.Text;
 import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
-    double costPerMile = 3.0;
+    double costPerMile = 3.25;
+    double initialCost = 3.0;
     double numberOfMiles;
     double totalCost;
     String groupChoice;
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 numberOfMiles = Double.parseDouble(miles.getText().toString());
-                totalCost = costPerMile * numberOfMiles;
+                totalCost = initialCost + costPerMile * numberOfMiles;
 
                 DecimalFormat currency = new DecimalFormat("$###,###.##");
                 groupChoice = group.getSelectedItem().toString();
