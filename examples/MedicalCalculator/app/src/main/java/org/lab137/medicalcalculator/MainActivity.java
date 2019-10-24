@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                                 Toast.LENGTH_LONG).show();
                     }
                 }
-                if (kiloToLb.isChecked()) {
+                if (kiloToLb.isChecked()) {5
                     if (weightEntered <= 225) {
                         convertedWeight = weightEntered * conversionRate;
                         result.setText(tenth.format(convertedWeight) + " pounds");
