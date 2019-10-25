@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Drone extends AppCompatActivity {
-    String url = "https://www.bestbuy.com/site/toshiba-50-class-led-2160p-smart-4k-uhd-tv-with-hdr-fire-tv-edition/6194909.p";
+    String url = "https://www.bestbuy.com/site/dji-mavic-2-pro-quadcopter-with-remote-controller/6262620.p";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
