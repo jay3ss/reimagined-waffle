@@ -26,6 +26,7 @@
             android:layout_height="300dp"
             android:layout_below="@id/txtProduct"
             android:src="@drawable/toshiba_tv"
+            android:contentDescription="Product image"
             android:layout_centerHorizontal="true"/>
 
         <Button

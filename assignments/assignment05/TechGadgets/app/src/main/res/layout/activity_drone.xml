@@ -25,6 +25,7 @@
             android:layout_height="300dp"
             android:layout_below="@id/txtProduct"
             android:src="@drawable/dji_drone"
+            android:contentDescription="Product image"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"/>
 
