@@ -4,6 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Drone">
+    tools:context=".Ipad">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+        <TextView
+            android:id="@+id/txtProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtDrone"
+            android:textSize="25sp"
+            android:gravity="left"
+            android:layout_alignParentTop="true"/>
+
+        <ImageView
+            android:id="@+id/imgProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_below="@id/txtProduct"
+            android:src="@drawable/dji_drone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnGoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtGotoButton"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/imgProduct"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
