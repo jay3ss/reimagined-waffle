@@ -5,4 +5,5 @@
     <string name="txtMacbook">Apple - MacBook Air - 13.3\" Retina Display - Intel Core i5 - 8GB Memory - 128GB Flash Storage - Space Gray</string>
     <string name="txtIpad">Apple - 11-Inch iPad Pro (Latest Model) with Wi-Fi - 64GB - Space Gray</string>
     <string name="txtHeadphones">Beats Solo3 Wireless On-Ear Headphones - Matte Black</string>
+    <string name="txtGotoButton">Go to Website</string>
 </resources>
