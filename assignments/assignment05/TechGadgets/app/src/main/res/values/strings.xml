@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Tech Gadgets</string>
+    <string name="txtTv">Toshiba - 50” Class – LED - 2160p – Smart - 4K UHD TV with HDR – Fire TV Edition</string>
+    <string name="txtDrone">DJI - Mavic 2 Pro Quadcopter with Remote Controller</string>
+    <string name="txtMacbook">Apple - MacBook Air - 13.3\" Retina Display - Intel Core i5 - 8GB Memory - 128GB Flash Storage - Space Gray</string>
+    <string name="txtIpad">Apple - 11-Inch iPad Pro (Latest Model) with Wi-Fi - 64GB - Space Gray</string>
+    <string name="txtHeadphones">Beats Solo3 Wireless On-Ear Headphones - Matte Black</string>
 </resources>
