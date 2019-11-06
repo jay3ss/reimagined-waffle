@@ -6,4 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/hawaii"
+            android:gravity="center|bottom"
+            android:text="@string/txtSplash"
+            android:textColor="#964B00"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
