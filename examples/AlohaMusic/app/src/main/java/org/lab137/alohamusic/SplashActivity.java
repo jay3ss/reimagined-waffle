@@ -2,6 +2,7 @@ package org.lab137.alohamusic;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import java.util.Timer;
@@ -18,6 +19,9 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 finish();
+                startActivity(
+                    new Intent(SplashActivity.this, MainActivity.class)
+                );
             }
         };
 
