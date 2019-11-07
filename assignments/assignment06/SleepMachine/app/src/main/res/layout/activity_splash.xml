@@ -15,11 +15,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/sleep"
-            android:gravity="center|bottom"
+            android:gravity="top|center_horizontal"
             android:text="@string/txtSplash"
-            android:textColor="#964B00"
-            android:textSize="38sp"
-            android:textStyle="bold" />
+            android:fontFamily="cursive"
+            android:textColor="#ffffff"
+            android:textSize="64sp"
+            android:textStyle="bold"/>
 
     </RelativeLayout>
 

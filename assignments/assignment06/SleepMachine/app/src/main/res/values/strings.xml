@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Sleep Machine</string>
+    <string name="btnWaves">Play Waves Track</string>
+    <string name="btnFan">Play Fan Track</string>
+    <string name="waves">Waves Image</string>
+    <string name="fan">Fan Image</string>
+    <string name="title_activity_main">Play Track</string>
+    <string name="txtSplash">Sleep Machine</string>
 </resources>
