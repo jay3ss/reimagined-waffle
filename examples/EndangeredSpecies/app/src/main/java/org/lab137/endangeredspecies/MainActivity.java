@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         public View getView(int position, View convertView, ViewGroup parent) {
             pic = new ImageView(context);
             pic.setImageResource(Animals[position]);
-            pic.setScaleType(ImageView.ScaleType.FIT_XY);
+            pic.setScaleType(ImageView.ScaleType.CENTER_CROP);
             pic.setLayoutParams(new GridView.LayoutParams(330, 300));
             return pic;
         }
