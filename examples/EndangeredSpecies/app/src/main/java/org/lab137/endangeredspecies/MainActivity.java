@@ -2,6 +2,7 @@ package org.lab137.endangeredspecies;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,12 +41,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private class ImageAdapter extends BaseAdapter {
-        public ImageAdapter(MainActivity mainActivity) {
+        private Context context;
+        public ImageAdapter(Context c) {
+            context = c;
         }
 
         @Override
         public int getCount() {
-            return 0;
+            return return;
         }
 
         @Override
