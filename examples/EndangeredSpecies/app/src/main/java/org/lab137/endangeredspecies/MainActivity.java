@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return return;
+            return Animals.length;
         }
 
         @Override
