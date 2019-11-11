@@ -63,7 +63,11 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            return null;
+            pic = new ImageView(context);
+            pic.setImageResource(Animals[position]);
+            pic.setScaleType(ImageView.ScaleType.FIT_XY);
+            pic.setLayoutParams(new GridView.LayoutParams(330, 300));
+            return pic;
         }
     }
 }
