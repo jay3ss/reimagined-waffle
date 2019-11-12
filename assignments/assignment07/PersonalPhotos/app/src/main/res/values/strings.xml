@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Personal Photos</string>
+    <string name="imgLarge">Image of Family</string>
+    <string name="atthemuseum">Bill, Julie, and Mikey</string>
+    <string name="bilsfamily">Michael, Michelle, Adam, and Janey</string>
+    <string name="bilsfamilyportrait">Steve, Marissa, Anna, and Johnny</string>
+    <string name="brothernnephew">Bill and Mikey</string>
+    <string name="niece">Cassie</string>
+    <string name="sisnnephew">James and Kathryn</string>
+    <string name="sisternfamily">Bill, Amy, and Adam</string>
+    <string name="wifenkids">Amy, Adam, and Minnie</string>
+</resources>
