@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">The Dog Sledding Experience</string>
+    <string name="imgSled">Dog Sledding Image</string>
+    <string name="txtTitle">The Dog Sledding Experience in Alaska</string>
+    <string name="txtDescription">Have you ever dreamed of being pulled through frost-bitten tundra by a team of savage, rabid animals that at any moment can realize that they outnumber you and can take you in an instant? Then do we have a fully-immersive experience for you! Come experience Alaska\'s strange obsession of recreating Santa\'s sleigh ride on the ground being pulled by a frenzied group of bloodthirsty animals!</string>
+    <string name="btnDate">Pick a Day for Your Sledding Experience</string>
+</resources>
