@@ -1,4 +1,4 @@
-spackage org.lab137.deeplearningresources;
+package org.lab137.deeplearningresources;
 
 import android.app.Activity;
 import android.os.Bundle;
