@@ -27,9 +27,10 @@ public class DummyContent {
 
     static {
         // Add some sample items.
-        for (int i = 1; i <= COUNT; i++) {
-            addItem(createDummyItem(i));
-        }
+        addItem(new DummyItem("1", "Photos"));
+        addItem(new DummyItem("2", "Tour"));
+        addItem(new DummyItem("3", "Web Site", "https://bikebarge.com"));
+
     }
 
     private static void addItem(DummyItem item) {
@@ -56,17 +57,24 @@ public class DummyContent {
     public static class DummyItem {
         public final String id;
         public final String content;
-        public final String details;
+        public final String item_name;
+        public final String item_url;
 
-        public DummyItem(String id, String content, String details) {
+        public DummyItem(String id, String item_name) {
             this.id = id;
-            this.content = content;
-            this.details = details;
+            this.content = item_name;
+            this.item_name = "";
+            this.item_url = "";
+        }
+
+        public DummyItem(String id, String item_name, String item_url) {
+            this.id = id;
+            this.item_name = item_name;
+            this.item_url = item_url;
+            content = item_name;
         }
 
         @Override
-        public String toString() {
-            return content;
-        }
+        public String toString() { return content; }
     }
 }
