@@ -10,6 +10,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.lab137.deeplearningresources.dummy.DummyContent;
@@ -60,12 +62,45 @@ public class ItemDetailFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.item_detail, container, false);
+        // First, grab the root view. Then, grab each view in the layout
+        View rootView = inflater.inflate(R.layout.fastai, container, false);
+        TextView text = rootView.findViewById(R.id.txtResource);
+        ImageView image = rootView.findViewById(R.id.imgResource);
+        WebView web = (WebView) rootView.findViewById(R.id.webResource);
+
+        int txtResourceId = 0;
+        int imgResourceId = 0;
+        String url = "";
 
         // Show the dummy content as text in a TextView.
-        if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.item_detail)).setText(mItem.details);
+        if (mItem.id.equals("1")) {
+            txtResourceId = R.string.txtFastai;
+            imgResourceId = R.drawable.fastai;
+            url = getString(R.string.urlFastai);
         }
+
+        if (mItem.id.equals("2")) {
+            txtResourceId = R.string.txtFastai;
+            imgResourceId = R.drawable.fastai;
+            url = getString(R.string.urlFastai);
+        }
+
+        if (mItem.id.equals("3")) {
+            txtResourceId = R.string.txtFastai;
+            imgResourceId = R.drawable.fastai;
+            url = getString(R.string.urlFastai);
+        }
+
+        if (mItem.id.equals("4")) {
+            txtResourceId = R.string.txtFastai;
+            imgResourceId = R.drawable.fastai;
+            url = getString(R.string.urlFastai);
+        }
+
+        // Now, set the resources
+        text.setText(txtResourceId);
+        image.setImageResource(imgResourceId);
+        web.loadUrl(url);
 
         return rootView;
     }
