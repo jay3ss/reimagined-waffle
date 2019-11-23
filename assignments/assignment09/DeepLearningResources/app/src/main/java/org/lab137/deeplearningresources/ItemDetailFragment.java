@@ -63,41 +63,48 @@ public class ItemDetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // First, grab the root view. Then, grab each view in the layout
-        View rootView = inflater.inflate(R.layout.fastai, container, false);
+        View rootView = inflater.inflate(R.layout.resource, container, false);
+        TextView title = rootView.findViewById(R.id.txtTitle);
         TextView text = rootView.findViewById(R.id.txtResource);
         ImageView image = rootView.findViewById(R.id.imgResource);
         WebView web = (WebView) rootView.findViewById(R.id.webResource);
 
+        String titleText = "";
         int txtResourceId = 0;
         int imgResourceId = 0;
         String url = "";
 
         // Show the dummy content as text in a TextView.
         if (mItem.id.equals("1")) {
+            titleText = getString(R.string.titleFastai);
             txtResourceId = R.string.txtFastai;
             imgResourceId = R.drawable.fastai;
             url = getString(R.string.urlFastai);
         }
 
         if (mItem.id.equals("2")) {
-            txtResourceId = R.string.txtFastai;
-            imgResourceId = R.drawable.fastai;
-            url = getString(R.string.urlFastai);
+            titleText = getString(R.string.titleTrask);
+            txtResourceId = R.string.txtTrask;
+            imgResourceId = R.drawable.trask;
+            url = getString(R.string.urlTrask);
         }
 
         if (mItem.id.equals("3")) {
-            txtResourceId = R.string.txtFastai;
-            imgResourceId = R.drawable.fastai;
-            url = getString(R.string.urlFastai);
+            titleText = getString(R.string.titleMit);
+            txtResourceId = R.string.txtMit;
+            imgResourceId = R.drawable.mit;
+            url = getString(R.string.urlMit);
         }
 
         if (mItem.id.equals("4")) {
-            txtResourceId = R.string.txtFastai;
-            imgResourceId = R.drawable.fastai;
-            url = getString(R.string.urlFastai);
+            titleText = getString(R.string.titleDeeplearningai);
+            txtResourceId = R.string.txtDeeplearningai;
+            imgResourceId = R.drawable.deeplearningai;
+            url = getString(R.string.urlDeeplearningai);
         }
 
         // Now, set the resources
+        title.setText(titleText);
         text.setText(txtResourceId);
         image.setImageResource(imgResourceId);
         web.loadUrl(url);

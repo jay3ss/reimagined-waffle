@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">Deep Learning Resources</string>
     <string name="title_item_detail">Deep Learning Resources</string>
-    <string name="txtFastai">This course from industry veteran Jeremy Howard offers a top-down approach that gets students\' hands dirty working with code first and then learning the theory later. This seems counter-intuitive and goes agains the grain, but this course has turned out top researches from Google\'s Deep Mind to Open AI.</string>
+    <string name="txtFastai">This course from industry veteran Jeremy Howard offers a top-down approach that gets students\' hands dirty working with code first and then learning the theory later. This seems counter-intuitive and goes against the grain, but this course has turned out top researches from Google\'s Deep Mind to Open AI.</string>
     <string name="txtDescription">Deep Learning Resources Image</string>
+    <string name="urlFastai">https://course.fast.ai/</string>
+    <string name="titleFastai">Practical Deep Learning for Coders</string>
+    <string name="titleMit">Deep Learning for Self-Driving Cars</string>
+    <string name="txtMit">This class is an introduction to the practice of deep learning through the applied theme of building a self-driving car. It is open to beginners and is designed for those who are new to machine learning, but it can also benefit advanced researchers in the field looking for a practical overview of deep learning methods and their application.</string>
+    <string name="urlMit">https://selfdrivingcars.mit.edu/</string>
+    <string name="titleTrask">Grokking Deep Learning</string>
+    <string name="urlTrask">https://www.manning.com/books/grokking-deep-learning</string>
+    <string name="txtTrask">Grokking Deep Learning teaches you to build deep learning neural networks from scratch! In his engaging style, seasoned deep learning expert Andrew Trask shows you the science under the hood, so you grok for yourself every detail of training neural networks.</string>
+    <string name="titleDeeplearningai">Break Into AI</string>
+    <string name="txtDeeplearningai">Whether you want to build algorithms or build a company, deeplearning.ai’s courses will teach you key concepts and applications of AI.</string>
+    <string name="urlDeeplearningai">https://www.deeplearning.ai/</string>
 </resources>
