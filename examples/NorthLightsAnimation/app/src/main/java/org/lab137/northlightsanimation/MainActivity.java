@@ -2,6 +2,7 @@ package org.lab137.northlightsanimation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 lightsAnimation.stop();
+                startActivity(new Intent(MainActivity.this, Tween.class));
             }
         });
     }
