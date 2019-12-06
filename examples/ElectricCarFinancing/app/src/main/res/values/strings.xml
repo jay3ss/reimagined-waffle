@@ -6,4 +6,5 @@
     <string name="btnPayment">Car Payment</string>
     <string name="imgDescription">Number of Years Image</string>
     <string name="txtPayment">Monthly Payment</string>
+    <string name="txtTitle">Electric Car Financing</string>
 </resources>
