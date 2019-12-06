@@ -6,6 +6,74 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtTitle"
+            android:textSize="32sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/txtYears"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="@string/hint1"
+            android:textSize="25sp"
+            android:layout_below="@+id/txtTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/txtLoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="@string/hint2"
+            android:textSize="25sp"
+            android:layout_below="@+id/txtYears"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/txtInterest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:hint="@string/hint3"
+            android:textSize="25sp"
+            android:layout_below="@+id/txtLoan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnPayment"
+            android:textSize="35sp"
+            android:layout_below="@+id/txtInterest"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"/>
+
+        <ImageView
+            android:id="@+id/imgOpening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/opening"
+            android:contentDescription="@string/imgDescription"
+            android:layout_below="@+id/btnPayment"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
