@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Your Personal Limerick</string>
+    <string name="txtTitle">Your Personal Limerick</string>
+    <string name="btnGenerate">Generate Limerick</string>
+    <string name="hintCity">Enter a City</string>
+    <string name="hintOccupation">Enter an Occupation</string>
+    <string name="hintNumber">Enter a Number</string>
+    <string name="hintVerb">Enter an Action Verb</string>
 </resources>
