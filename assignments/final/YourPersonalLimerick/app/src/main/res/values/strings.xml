@@ -6,4 +6,5 @@
     <string name="hintOccupation">Enter an Occupation</string>
     <string name="hintNumber">Enter a Number</string>
     <string name="hintVerb">Enter an Action Verb</string>
+    <string name="imgDescription">Four Leaf Clover</string>
 </resources>

@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 editor.putString("occupation", strOccupation);
                 editor.putFloat("number", fltNumber);
                 editor.putString("verb", strVerb);
+                editor.commit();
 
                 startActivity(new Intent(MainActivity.this, Limerick.class));
             }
